@@ -1,0 +1,42 @@
+.button-div {
+  background-color: rgb(177, 34, 177);
+  display: inline-block;
+  padding: 5% 6%;
+  position: absolute;
+  border-radius: 1000px;
+  bottom: -10%;
+  right: -7%;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.button-div:hover {
+  filter: brightness(80%);
+}
+.button-div:active {
+  filter: brightness(60%);
+}
+i {
+  color: white;
+  font-size: 5vw;
+}
+
+@media (min-width: 600px) {
+  .button-div {
+    padding: 2% 2%;
+    bottom: -5%;
+    right: -3%;
+  }
+  i {
+    font-size: 4vw;
+  }
+}
+@media (min-width: 1350px) {
+  .button-div {
+    padding: 2% 2%;
+    bottom: -5%;
+    right: -3%;
+  }
+  i {
+    font-size: 2vw;
+  }
+}
